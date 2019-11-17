@@ -38,9 +38,7 @@ public class MailSMTP {
 	 
 	    private MimeMessage draftEmailMessage(String[] toEmails,String emailBody, String emailSubject ) throws AddressException, MessagingException
 	    {
-	       // String[] toEmails = { "joseph@litmus7.com" };
-	       // String emailSubject = "Test email subject";
-	      //  String emailBody = "<body><h1>HElOOo!!</h1> </body>";
+	      
 	        MimeMessage emailMessage = new MimeMessage(mailSession);
 	        /**
 	         * Set the mail recipients
