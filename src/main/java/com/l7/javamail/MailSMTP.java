@@ -14,7 +14,8 @@ import com.l7.dto.MailData;
 
 public class MailSMTP {
 	Session mailSession;
-kasgdkgsakdgaskdga
+//jhgdhvuhyu
+
 	public void mailSent(MailData mailobj, String[] toEmail, String emailSubject, String emailBody)
 			throws AddressException, MessagingException {
 		MailSMTP javaEmail = new MailSMTP();
